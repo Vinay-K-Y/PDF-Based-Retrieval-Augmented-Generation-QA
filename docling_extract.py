@@ -74,3 +74,4 @@ with open("chunks.json", "w") as f:
 
 print(f"Extracted and saved {len(chunks)} chunks (text + tables + images) to chunks.json")
 
+
