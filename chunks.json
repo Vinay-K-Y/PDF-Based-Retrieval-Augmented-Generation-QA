@@ -1,1218 +1,322 @@
 [
   {
-    "chunk_index": "text_0",
-    "text": "Heart Disease\nwhat you should know"
+    "chunk_index": "p2_c0",
+    "page": 2,
+    "text": "[Page 2]\n2 CHAPTER 6: COLOR IMAGE PROCESSING The use of color image processing is motivated by two factors: Color is a powerful descriptor that often simplifies object identification and extraction from a scene. Humans can discern thousands of color shades and intensities (compared to ~only 2 dozen shades of gray!). Two major areas: Full-color processing: images are acquired with a full-color sensor. Pseudo-color processing: a color is assigned to a particular monochrome intensity or range of intensities. In the past, most digital image color processing was done at the pseudo-color level. Today"
   },
   {
-    "chunk_index": "text_1",
-    "text": "Vital information about:\n- your heart\n- cardiac risk factors\n- lifestyle modification\n- treatment options\nDean J. Kereiakes, MD, FACC, and Douglas Wetherill, MS"
+    "chunk_index": "p2_c1",
+    "page": 2,
+    "text": "[Page 2]\nsities. In the past, most digital image color processing was done at the pseudo-color level. Today, full-color image processing techniques are used in a broad range of applications."
   },
   {
-    "chunk_index": "text_2",
-    "text": "Heart Disease\nwhat you should know\nWritten by Dean J. Kereiakes, MD, FACC, and Douglas Wetherill, MS Illustrated by Laura L. Seeley"
+    "chunk_index": "p3_c2",
+    "page": 3,
+    "text": "[Page 3]\n3 COLOR FUNDAMENTALS Perception and interpretation of color is a physiopsychological phenomenon that is not fully understood. Sir Isaac Newton discovery in 1666. Color spectrum can be divided into 6 broad regions: Violet, blue, green, yellow, orange, and red. The colors that human perceive in an object are determined by the nature of the light reflected from that object. Green objects reflect light with wavelengths in 500-570nm while absorbing most of the energy at other wavelengths. Characterization of light is central to the science of color. Achromatic light Chromatic light"
   },
   {
-    "chunk_index": "text_3",
-    "text": "Dedicated to my family. -Douglas\n'No matter what accomplishments you achieve, somebody helps you.' -Althea Gibson"
+    "chunk_index": "p4_c3",
+    "page": 4,
+    "text": "[Page 4]\nCOLOR SPECTRUM FIGURE 6.1 Color spectrum seen by passing white light through a prism. (Courtesy of the General Electric Co., Lamp Business Division.)"
   },
   {
-    "chunk_index": "text_4",
-    "text": "Treatment Disclaimer\nThis book is for education purposes, not for use in the treatment of medical conditions. It is based on skilled medical opinion as of the date of publication. However, medical science advances and changes rapidly. Furthermore, diagnosis and treatment are often complex and involve more than one disease process or medical issue to determine proper care. If you believe you may have a medical condition described in the book, consult your doctor."
+    "chunk_index": "p5_c4",
+    "page": 5,
+    "text": "[Page 5]\n5 CHROMATIC LIGHT Chromatic light spans the EM spectrum from 400nm to 700nm. 3 basic quantities to describe the quality of a chromatic light source: Radiance (W): total amount of energy that flows from the light source. Luminance (lm): the amount of energy an observer perceives from a light source. Brightness: a subjective descriptor that is impossible measure in partice. Example: light emitted from a source operating in the far infrared region. Radiance: significant! Luminance: hardly perceived! The cones are responsible for color vision. 65% are sensitive to red light. 33% are sen"
   },
   {
-    "chunk_index": "text_5",
-    "text": "Table of Contents\nIntroduction, 1 = vi. Heart Anatomy, 1 = 1. Arteries and Coronary Arteries, 1 = 12. Risk Factors, 1 = 27. Exercise, 1 = 73. Nutrition, 1 = 92. Angioplasty, Bypass Surgery, and Medications, 1 = 102. Questions, 1 = 121"
+    "chunk_index": "p5_c5",
+    "page": 5,
+    "text": "[Page 5]\nerceived! The cones are responsible for color vision. 65% are sensitive to red light. 33% are sensitive to green light. 2% are sensitive to blue light (blue cones are the most sensitive)"
   },
   {
-    "chunk_index": "text_6",
-    "text": "Introduction\nHeart disease, especially coronary heart disease, is an everyday part of our culture. It is also the most common cause of death. What can be done to reverse this trend? A large percentage of cardiovascular disease is genetic or inherited. However, there are things you can do to reduce your chance of having a heart attack. You can start by understanding what cardiovascular disease is and making the necessary changes in your life. If you have had a cardiac event, or if you think you may be at risk of cardiovascular disease, now is the time to take command of your life. -Dean and Douglas"
+    "chunk_index": "p6_c6",
+    "page": 6,
+    "text": "[Page 6]\nVISIBLE SPECTRUM ———— ‘ULTRAVIOLET VISIBLE SPECTRUM = INFRARED ~~ 1000 1500 WAVELENGTH (Nanome ters) FIGURE 6.2 Wavelengths comprising the visible range of the electromagnetic spectrum. (Courtesy of the General Electric Co., Lamp Business Division. )"
   },
   {
-    "chunk_index": "text_7",
-    "text": "The heart\nThe heart is a muscle. It pumps blood to the head and the body. It is about the size of your fist and sits just to the left of the middle of your chest.\nThe heart is asymmetrical. It is made up of 4 chambers. The top 2 chambers are called the atria . The atria collect blood returning to the heart. The atria then dump the blood into the ventricles.\nThe bottom 2 chambers are called the ventricles . The ventricles are larger than the atria, and the left one is more muscular. When the ventricles contract, they force blood out of the heart to different parts of the body.\nThe body uses nutrients and oxygen carried by the blood. The blood returning to the heart has had oxygen removed. This 'deoxygenated' blood collects in the right atrium .\nThe blood in the right atrium goes into the right ventricle .\nOnce the blood picks up oxygen in the lungs, it is ready to be used by the body again. The oxygen-rich blood returns to the heart and collects inside the left atrium ."
+    "chunk_index": "p7_c7",
+    "page": 7,
+    "text": "[Page 7]\n7 ABSORPTION OF LIGHT BY THE CONES No single color may be called red, green, or blue."
   },
   {
-    "chunk_index": "text_8",
-    "text": "The heart\nThe left ventricle contracts and pumps oxygenated blood through the aortic valve into the aorta . The blood then travels through the aorta , providing life-sustaining oxygen and nutrients to the body."
+    "chunk_index": "p8_c8",
+    "page": 8,
+    "text": "[Page 8]\n8 PRIMARY AND SECONDARY COLORS OF LIGHT Primary colors are mixed to produce secondary colors of light (magenta, cyan, yellow). Secondary colors are mixed to produce primary colors of light (red, green, blue)."
   },
   {
-    "chunk_index": "text_9",
-    "text": "So:\n- 1)    Blood with lower oxygen content collects in the right atrium.\n- 2)   The right ventricle pumps blood to the lungs where it picks up oxygen.\n- 3) Oxygen-rich blood collects in the left atrium.\n- 4)   The left ventricle pumps oxygen-rich blood to the head and the rest of the body."
+    "chunk_index": "p9_c9",
+    "page": 9,
+    "text": "[Page 9]\n9 COLOR TV A color TV screen differs from a black-and-white screen in three ways: There are three electron beams that move simultaneously across the screen. They are named the red, green and blue beams. The screen is not coated with a single sheet of phosphor as in a black-and-white TV. Instead, the screen is coated with red, green and blue phosphors arranged in dots or stripes. If you turn on your TV or computer monitor, and look closely at the screen with a magnifying glass, you will be able to see the dots or stripes. On the inside of the tube, very close to the phosphor coating, there is a"
   },
   {
-    "chunk_index": "text_10",
-    "text": "Arteries and Coronary Arteries Arteries and Coronary Arteries\nArteries carry blood much the same way a plumbing system carries water throughout a house.\nOver time, debris traveling through the pipes may collect in a bend. Debris that collects and restricts water flow is known as a clog or a blockage.\nTo give you some idea of their size, the coronary arteries are only about the size of a strand of spaghetti.\n(APPROXIMATE SIZE OF SPAGHETTI)\nAt birth, the inside of the arteries, including the coronary arteries, is slippery - similar to a nonstick pan. The blood cells (represented by the small cars) flow smoothly through the arteries."
+    "chunk_index": "p9_c10",
+    "page": 9,
+    "text": "[Page 9]\no see the dots or stripes. On the inside of the tube, very close to the phosphor coating, there is a thin metal screen called a shadow mask. This mask is perforated with very small holes that are aligned with the phosphor dots (or stripes) on the screen. When a color TV needs to create a red dot, it fires the red beam at the red phosphor. Similarly for green and blue dots. To create a white dot, red, green and blue beams are fired simultaneously -- the three colors mix together to create white. To create a black dot, all three beams are turned off as they scan past the dot. All other colors on"
   },
   {
-    "chunk_index": "text_11",
-    "text": "What happens to an artery during a person's lifetime?\nFatty streaks in the arteries start to develop in the first decade of life as a result of lipids moving into cells in the wall of the artery.\nThese fatty streaks may become more advanced atherosclerotic lesions in the presence of risk factors such as smoking, high blood pressure, obesity, high cholesterol, and physical inactivity. The fatty streaks may then progress to atheromas and fibroatheromas , which are more 'advanced lesions' and are often referred to as plaque .\nBLOOD\nBuildups may occur at different points along the length of the artery. Plaque buildups are not limited to the arteries of the heart. They can occur and restrict blood flow in arteries throughout your body.\nPLAQUE BUILDUP\nThe total blockage of the artery may occur due to: a) the buildup of plaque, b) the formation of a blood clot on the plaque, or c) the plaque rupturing and causing a larger blood clot to form. The complete blockage of the artery is called an occlusion ."
+    "chunk_index": "p9_c11",
+    "page": 9,
+    "text": "[Page 9]\nTo create a black dot, all three beams are turned off as they scan past the dot. All other colors on a TV screen are combinations of red, green and blue."
   },
   {
-    "chunk_index": "text_12",
-    "text": "What happens if an artery becomes completely blocked?\nAn artery that is completely blocked has no blood flowing through it. If the heart muscle does not receive blood, then it does not receive nutrients and oxygen. When the heart does not receive oxygen, it experiences ischemia . This may result in heart pain (angina) or a heart attack . Ischemia , if prolonged and severe enough, may cause a portion of the heart muscle to die (heart attack)."
+    "chunk_index": "p10_c12",
+    "page": 10,
+    "text": "[Page 10]\n10 CIE CHROMATICITY DIAGRAM Points on the boundary are pure colors in the visible spectrum. Any point within the diagram represents some mixture of spectrum colors. A straight line segment joining any 2 points defines all the different color variations that can be obtained by mixing these 2 colors additively. Any color in the triangle can be produced by various combinations of the corner colors."
   },
   {
-    "chunk_index": "text_13",
-    "text": "What are some symptoms of a possible heart attack?\n- Angina , or heart pain, usually felt as a pressure, ache, tightness, squeezing, or burning sensation under the breastbone and often extending to the neck, jaw, shoulders, or down the arm (most frequently the left arm)\n- Nausea\n- Shortness of breath and/or sweating\nInterestingly, people who have diabetes may not 'feel' angina in the same way and, consequently, have a greater risk of experiencing a 'silent' or unrecognized heart attack.\nQuite often, people who are having a heart attack say they feel like 'an elephant is standing on my chest.'"
+    "chunk_index": "p11_c13",
+    "page": 11,
+    "text": "[Page 11]\n11 COLOR MODELS A color model is a specification of colors in a standard way. A coordinate system and a subspace where each color is represented by a single point. Most color models are oriented toward hardware or applications. Hardware oriented models for DIP RGB (red, green, blue) model for color monitors and color video cameras CMY (cyan, magenta, yellow) model for color printing CMYK (cyan, magenta, yellow, black) model for color printing HSI (hue, saturation, intensity) model that corresponds to the way humans describe and interpret color"
   },
   {
-    "chunk_index": "text_14",
-    "text": "Preventing coronary artery disease\nWhat can be done to reduce your chances of developing heart disease? Generally, cardiovascular disease takes a long time to develop. You may reduce your chances of developing heart disease by changing certain habits or 'risk factors.'"
+    "chunk_index": "p12_c14",
+    "page": 12,
+    "text": "[Page 12]\n12 RGB MODEL Each color is represented by a point in or on the unit cube. Images represented with the RGB color model have 3 component images: Red component Green component Blue component If 8 bits are used for each pixel, we have a 24-bit RGB image."
   },
   {
-    "chunk_index": "text_15",
-    "text": "The primary risk factors for cardiovascular disease include:\n- 1) Elevated cholesterol\n- 2) Smoking\n- 3) Diabetes\n- 4) Metabolic syndrome\n- 5) Hypertension\n- 6) Obesity\n- 7) Age\n- 8) Family history\n- 9) Physical inactivity\n- 10) Vascular injury and inflammation"
+    "chunk_index": "p13_c15",
+    "page": 13,
+    "text": "[Page 13]\n13 RGB 24-BIT COLOR CUBE (28)3 = 16,777,216 colors"
   },
   {
-    "chunk_index": "text_16",
-    "text": "1. Elevated cholesterol\nCholesterol is a 'waxlike substance' that serves as a 'building block' within the cell membrane .\nCholesterol is used to make bile acids that help break down fat in our intestines.\nCholesterol is also used to make hormones , especially those found in reproduction: estrogen and testosterone ."
+    "chunk_index": "p14_c16",
+    "page": 14,
+    "text": "[Page 14]\n14 COLOR PLANES R = 127 G = 0-255 B = 0-255 A color image is acquired using the process in reverse order."
   },
   {
-    "chunk_index": "text_17",
-    "text": "Why is cholesterol so harmful?\nAs mentioned, fatty streaks in the arteries start to develop in the first decade of life as a result of lipids moving into the cell wall of the artery. These fatty streaks may become more advanced atherosclerotic lesions and may then progress to 'advanced lesions' often referred to as plaque .\nPlaque restricts the flow of blood through the artery, similar to orange construction barrels you have seen on the highway. Plaque reduces the flow of blood (traffic) and increases pressure in the artery (construction zone)."
+    "chunk_index": "p15_c17",
+    "page": 15,
+    "text": "[Page 15]\nNumber System Color Equivalents TABLE 6.1 Valid values of Hex Decimal 33 51 66 102 99 153 cc 204 each RGB component in a safe color. FIGURE 6.10 (a) The 216 safe RGB colors. (b) All the grays in the 256-color RGB system (grays that are part of the safe color group are shown underlined). 15"
   },
   {
-    "chunk_index": "text_18",
-    "text": "What should my cholesterol levels be?\nThe American Heart Association (AHA) and the American College of Cardiology (ACC) have revised the the guidelines for managing blood cholesterol, focusing on assessing risk and which individuals should be on a type of cholesterol-lowering medications called statins. Unlike the previous guidelines that focused on certain cholesterol levels, the new AHA/ACC guidelines focus on your health history (considerations include age and a history of diabetes, high blood pressure, or heart attack) and other risk factors. Although cholesterol levels are not part of\nthe new medication guidelines, your doctor may use your cholesterol levels to help guide therapy.\nThe AHA/ACC cholesterol guidelines also stress the importance of lifestyle modifications such as adhering to a heart-healthy diet, exercising regularly based on your doctor's recommendations, and avoiding tobacco products.\nAsk your doctor to use the 'Risk Calculator,' which gives you a risk score, and from that, if necessary, your doctor can discuss your cholesterol-lowering treatment plan."
+    "chunk_index": "p16_c18",
+    "page": 16,
+    "text": "[Page 16]\n16 RBG SAFE-COLOR CUBE Each surface has 36 colors: 6x36 = 216"
   },
   {
-    "chunk_index": "text_19",
-    "text": "2. What about smoking?\nDon't do it. Smoking is bad for the entire cardiovascular system because it:\n- A) Introduces carbon monoxide into the body\n- B) Lowers the 'good' HDL-cholesterol\n- C) damages the lining of the arteries"
+    "chunk_index": "p17_c19",
+    "page": 17,
+    "text": "[Page 17]\n17 CMY & CMYK COLOR MODELS Secondary colors of light : Cyan, magenta, yellow (primary colors of pigments) Most devices (color printers, copiers, etc.) that deposit color pigments on paper require CMY data input or perform an internal RGB to CMY conversion. RGB to CMY conversion (all color values are in the range [0,1]): C 1 R light reflected from a surface coated with pure cyan does not contain red M = 1 - G light reflected from a surface coated with pure magenta does not contain green Y 1 B light reflected from a surface coated with pure yellow does not contain blue Equal amounts of cyan, mag"
   },
   {
-    "chunk_index": "text_20",
-    "text": "A. Carbon monoxide\nOxygen attaches to the red blood cells in the lungs. Red blood cells transport the oxygen throughout the body.\nWhen you smoke, you inhale carbon monoxide into your lungs. Carbon monoxide binds to the red blood cells at the site where oxygen normally binds.\nTherefore, less oxygen is carried by the blood, resulting in less oxygen available for use in the heart, muscles, and throughout the body. People who smoke may have abnormal heartbeats as well.\nUnderstandably, smoking has harmful effects, especially for anyone who has already had a heart attack or bypass surgery. More importantly, there is an increased likelihood of a second heart attack or need for another bypass surgery if you continue to smoke after an initial cardiac incident.\nSmoking is also a risk factor for peripheral vascular disease (blockages of the arteries to the brain, kidneys and legs)."
+    "chunk_index": "p17_c20",
+    "page": 17,
+    "text": "[Page 17]\nht reflected from a surface coated with pure yellow does not contain blue Equal amounts of cyan, magenta, and yellow should produce black. In practice, this combination produces muddy-looking black. In order to produce true black, a fourth color is added to the model. CMYK color model: cyan, magenta, yellow, and black"
   },
   {
-    "chunk_index": "text_21",
-    "text": "B. Lower HDL-cholesterol\nThree other reasons for not smoking are that it reduces the amount of HDL-cholesterol or 'good cholesterol' in your bloodstream,  it makes your blood clot more easily, increasing the potential for an arterial blockage (heart attack or stroke) and smoking may also cause damage to the lining of the arteries, making them more susceptible to cholesterol deposits. SMOKING REDUCES HDL-CHOLESTEROL"
+    "chunk_index": "p18_c21",
+    "page": 18,
+    "text": "[Page 18]\n18 HSI COLOR MODEL RBG and CMY are suitable for hardware implementations. Unfortunately, they are not good for describing colors for human interpretation. One does not refer to the color of a car by giving the % of each of the primaries! Humans describe a color object by its hue, saturation, and brightness. Hue: a color attribute that describes a pure color. Saturation: gives a measure of the degree to which pure color is diluted by white light. Brightness: a subjective descriptor that is practically impossible to measure. The HSI model decouples the intensity component from the color-"
   },
   {
-    "chunk_index": "text_22",
-    "text": "3. Diabetes\nWhat exactly is diabetes? The working cells need sugar for energy. Sugar is absorbed through the digestive system after a meal or snack. Insulin is released by the pancreas to allow the body to use sugar as a source of nutrition and energy. That may be hard to visualize. This may help ...\nSome food is broken down into particles of sugar. Sometimes this sugar is referred to as carbohydrates or glucose.\nSugar moves from the digestive system to the blood and travels throughout the body to feed the working cells. The sugar is the energy packet the cells need to do work like running and breathing.\nWithout the key (insulin), the sugar cannot get out of the bloodstream and into the working cells. The sugar builds up in the blood, and the working cells get hungry. This is what happens in diabetes: the body cannot move sugar from the blood into the cells.\nDiabetes is a major risk factor for cardiovascular disease. It is estimated that half of all diabetes patients have some form of coronary heart disease prior to being diagnosed with diabetes. Approximately 80% eventually die of cardiovascular disease."
+    "chunk_index": "p18_c22",
+    "page": 18,
+    "text": "[Page 18]\npractically impossible to measure. The HSI model decouples the intensity component from the color-carrying information (hue & saturation)."
   },
   {
-    "chunk_index": "text_23",
-    "text": "4. Metabolic syndrome\nMetabolic syndrome affects 1 of every 3 Americans (1 of every 2 people over age 60). Individuals who have at least 3 of the following criteria are considered to have this condition:\n- 1) Large waistline\n- 2) Elevated triglyceride levels\n- 3) Low HDL-cholesterol\n- 4) High blood pressure\n- 5) Elevated fasting blood glucose levels\nThose with metabolic syndrome are at increased risk for heart attack, stroke or even death."
+    "chunk_index": "p19_c23",
+    "page": 19,
+    "text": "[Page 19]\n19 CONCEPTUAL RELATIONSHIP BETWEEN RGB AND HSI COLOR MODELS (0,0,0) (1,1,1) This line is the intensity axis joining black and white vertices. The intensity component of this color point can be determined by passing a plane perpendicular to the axis and containing the point. In this plane segment, all the points have the same hue but different saturation and intensity. Conclusion: H, S, and I values required to form the HSI space can be obtained from the RGB cube. As the planes moves up and down, the boundaries defined by the intersection of each plane with the faces of the cube have either a t"
   },
   {
-    "chunk_index": "text_24",
-    "text": "5. Hypertension\nHypertension is commonly referred to as high blood pressure. The recommendation for appropriate levels of blood pressure is determined by your age. Individuals who are 60 years or older should talk to their doctor about possible treatment options if their\nsystolic blood pressure is 150 mmHg or higher, or if their diastolic blood pressure is 90 mmHg or higher. Similarly, individuals between 18 and 60 years old should talk to their doctor about possible treatment options if their systolic pressure is 140 mmHg or higher or if their diastolic pressure is 90 mmHg or higher.\nWhat is systolic pressure ? Blood comes out of the heart in 1 big thrust. The artery expands to handle the blood. The amount of pressure put on the expanded artery wall is called systolic pressure .\nAfter the artery expands during systole, it relaxes back to its normal size. It is similar to a rubber band that goes back to its normal shape after being stretched. Normal pressure on the artery wall during relaxation is called diastolic pressure ."
+    "chunk_index": "p19_c24",
+    "page": 19,
+    "text": "[Page 19]\nthe boundaries defined by the intersection of each plane with the faces of the cube have either a triangular or hexagonal shape."
   },
   {
-    "chunk_index": "text_25",
-    "text": "How does hypertension relate to cardiovascular disease?\nBlood pressure is a result of the blood flowing through the artery (cardiac output) and the resistance of the artery wall (vascular resistance). If that sounds too technical, here ... this may help:\nBlood pressure = Cardiac output x vascular resistance\nBLOOD FLOW\nIf a lot of resistance is created by either the blood or the artery wall, then there is more pressure as the blood travels through the artery. If it takes more energy to get the blood through the arteries, then your heart has to work harder with each beat. Most people with high blood pressure do not realize they have it. No wonder hypertension is called the 'silent killer.'"
+    "chunk_index": "p20_c25",
+    "page": 20,
+    "text": "[Page 20]\n20 HUE AND SATURATION IN THE HSI MODEL View obtained by looking at the RBG cube down its gray-scale axis. It is not unusual to see HSI planes defined in terms of a hexagon, a triangle, or even a circle."
   },
   {
-    "chunk_index": "text_26",
-    "text": "What contributes to hypertension?\nSeveral factors may contribute to hypertension and cardiovascular disease. These include:\nExcess dietary salt\nExcess alcohol intake\nStress\nAge\nGenetics and family history\nObesity\nPhysical inactivity\nHigh saturated fat diet"
+    "chunk_index": "p21_c26",
+    "page": 21,
+    "text": "[Page 21]\n21 TRIANGULAR AND CIRCULAR COLOR PLANES IN THE HSI MODEL mid-point of the vertical intensity axis"
   },
   {
-    "chunk_index": "text_27",
-    "text": "Salt\nSalt helps conserve water in your body. The American Heart Association Step II Diet recommends that the average person consume no more than 2,400 mg of salt per day, especially those individuals who are salt sensitive. Excess dietary salt may contribute to both hypertension and to your body retaining too much water.\nIf you are retaining too much water, then you are increasing your blood volume (cars) without adding space. This increase will result in more pressure in the arteries."
+    "chunk_index": "p22_c27",
+    "page": 22,
+    "text": "[Page 22]\n22 CONVERTING COLORS FROM RGB TO HSI if B G with if B > G                        2 / 1 2 1 ) )( ( ) ( ) ( ) ( 2 1 cos B G B R G R B R G R     360 )] , , [min( ) ( 3 1 B G R B G R S      H ) ( 3 1 B G R I    The RBG values have been normalized to the range [0,1]. Can be normalized to the range [0,1] by diving all the values by 360."
   },
   {
-    "chunk_index": "text_28",
-    "text": "Alcohol consumption\nA common concern for individuals with cardiovascular disease is alcohol consumption mainly because there seems to be conflicting evidence about the benefits versus the risks of drinking. Experts agree that excess alcohol consumption over time can lead to many harmful effects, including high blood pressure, cirrhosis of the liver, and damage to the heart. The issue is the balance between moderate and excessive alcohol consumption.\nWhile the evidence shows that there is a protective effect for moderate alcohol consumption, this benefit disappears with excessive intake. Men should consume no more than 2 drinks* daily, and women, because of their smaller body size, should not consume more than 1 drink* each day. The 7 to 14 allowable drinks in a week should not be consumed in a few days or during a weekend of binge drinking.\n*A guide : One drink is defined as 5 ounces of wine, 12 ounces of beer, or 1-1/2 ounces of 80-proof liquor.\nPeople who should not drink include individuals with high levels of triglycerides in their blood (over 300 mg/dL), women who are pregnant, individuals who are under age, people with a genetic predisposition for alcoholism or who are recovering from alcoholism, and those taking certain medications."
+    "chunk_index": "p23_c28",
+    "page": 23,
+    "text": "[Page 23]\n23 CONVERTING COLORS FROM HSI TO RGB The HSI values are given in the interval [0,1]. The applicable equations depend on the values of H. RG sector (00 H < 1200): ) 1( S I B          ) 60 cos( cos 1 0 H H S I R ) ( 3 B R I G    GB sector (1200 H < 2400): first subtract 1200 from it. ) 1( S I R          ) 60 cos( cos 1 0 H H S I G ) ( 3 G R I B    BR sector (2400 H 3600): first subtract 2400 from it. ) 1( S I G          ) 60 cos( cos 1 0 H H S I B ) ( 3 B G I R   "
   },
   {
-    "chunk_index": "text_29",
-    "text": "What about stress?\nWhen you are under stress, your brain releases signals to the body through the nerves. These signals allow your body to respond to various situations.\nArteries have nerves attached to them. The nerves can either cause the arteries to relax or can put more tension on the walls of the arteries. If you are under a lot of stress, the nerves send signals to tighten or narrow the arteries.\nNarrowing the artery is like taking away a lane of traffic. There is still the same number of cars (blood) with less space (artery). This increases the pressure inside the artery."
+    "chunk_index": "p24_c29",
+    "page": 24,
+    "text": "[Page 24]\n24 PSEUDO-COLOR IMAGE PROCESSING Pseudo-color image processing: assignment of colors to gray values based on a specified criterion. The principal use of pseudo-color is for human visualization and interpretation of gray-scale events in images. A principal motivation for using color is that humans can discern thousands of color shades and intensities! Intensity slicing and color coding is a simple example of pseudo-color image processing. The image is a 3-D function. Planes parallel to the coordinate plane are used. More general transformations achieve a wider range of pseudo-color enhan"
   },
   {
-    "chunk_index": "text_30",
-    "text": "So,\nsomething you can do to improve your blood pressure is reduce stress. You can accomplish this by practicing meditation, doing deep breathing exercises, or doing exercise, such as going for a walk, riding a bike, or taking a swim."
+    "chunk_index": "p24_c30",
+    "page": 24,
+    "text": "[Page 24]\ncoordinate plane are used. More general transformations achieve a wider range of pseudo-color enhancement results."
   },
   {
-    "chunk_index": "text_31",
-    "text": "6. Obesity\nThe American Heart Association has described obesity as a major risk factor for cardiovascular disease. What exactly is obesity?\nMetropolitan Life's height/weight tables are often used to determine a recommended weight for an individual based on age and gender. Generally, those who are 20% over the recommended weight for their height are considered to be overweight but not necessarily obese. Obesity refers to\nfatness rather than weight. Men who have greater than 25% of their body weight as fat and women who have more than 35% are considered to be obese. Obesity and being overweight carry significant health risks, are directly related to cardiovascular risk factors, and may:\n- 1) raise triglycerides (a 'bad' blood fat)\n- 2) lower HDL-cholesterol (the 'good' cholesterol)\n- 3) raise LDL-cholesterol (the 'bad' cholesterol)\n- 4) raise blood pressure and\n- 5) increase the risk of developing diabetes\nObesity may be related to both genetics (nature) and lifestyle (nurture). Generally speaking, obesity occurs"
+    "chunk_index": "p25_c31",
+    "page": 25,
+    "text": "[Page 25]\n25 INTENSITY SLICING A different color is assigned to each side of the plane. Algorithm: [0,L-1]: gray-scale L0: black lL-1: white P planes: l1,l2,…,lP P planes partition the gray- scale into P+1 intervals: V1,V2,…,VP+1 Color assignments: f(x,y) = ck if f(x,y) Vk"
   },
   {
-    "chunk_index": "text_32",
-    "text": "6. Obesity\nwhen the calories we consume exceed the calories we burn through activities of daily living and exercise. We store the excess calories as fat reserves, thus contributing to obesity and ultimately increasing the risk of coronary disease. Obesity has increased in men and women in every decade over the past 50 years.\nThere is a misconception that Americans are overeating and eating too much fat. In fact, as a nation we are eating less fat, fewer calories, and still gaining weight primarily due to the lower levels of physical activity in our youth and adult lives. A sedentary lifestyle could be the real culprit.\nRecently, a dramatic increase in obesity has been observed in children and adolescents. According to the Centers for Disease Control, obesity rates in adolescents age 12-19 has quadrupled from 5% to 21% since 1980. Obesity in children may lead to high blood pressure and pre-diabetes, and it may also lead to chronic conditions, such as heart disease, type 2 diabetes, stroke, several types of cancer, and osteoarthritis."
+    "chunk_index": "p26_c32",
+    "page": 26,
+    "text": "[Page 26]\n26 INTENSITY SLICING INTO 8 COLORS A different color is assigned to each region without regard for the meaning of the gray levels in the image."
   },
   {
-    "chunk_index": "text_33",
-    "text": "7. Age\nAging has an effect on the risk of cardiovascular disease because aging causes changes in the heart and blood vessels. As people age, they become less active, gain more weight, and the effects of a sedentary lifestyle, smoking, and poor diet continue to damage the heart and circulation by increasing blood pressure and cholesterol levels. Blood pressure increases with aging, in part because arteries gradually lose some of their elasticity and, over time, may not be as resilient."
+    "chunk_index": "p27_c33",
+    "page": 27,
+    "text": "[Page 27]\n27 INTENSITY SLICING INTO 2 COLORS When there is a porosity or crack in a weld, the full strength of the X-rays going through the object saturates the sensor on the other side of the object. Hence, gray levels of value 255 in an 8-bit image coming from such a system automatically imply a problem with the weld! If a human is the ultimate judge in inspecting welds, this simple color coding would result in lower error rates!"
   },
   {
-    "chunk_index": "text_34",
-    "text": "8. Family history\nA family history of cardiovascular disease could reflect genetics and/or an unhealthy family lifestyle. If most of your family members smoke, are sedentary, and have a poor diet then these are harmful habits that increase the risk of heart disease in your family. However, unlike your genes, these behaviors can be changed.\nOn the other hand, if your family has a healthful lifestyle but there is still a high incidence of cardiovascular disease, then it is likely that genetics is playing a role. We are learning more about the importance of genetic risk for vascular disease. In the future, treatment may be tailored to an individual's own genetic makeup. In either case, by practicing a healthful lifestyle, you can help reduce your risk rather than giving up and thinking you have no control over your destiny."
+    "chunk_index": "p28_c34",
+    "page": 28,
+    "text": "[Page 28]\n28 INTENSITY SLICING INTO 2 COLORS Average monthly rainfall over a period of 3 years Much easier to interpret"
   },
   {
-    "chunk_index": "text_35",
-    "text": "9. Vascular Inflammation and C-Reactive Protein\nVascular inflammation is another risk factor for cardiovascular disease. Smoking, high cholesterol, high blood pressure and diabetes can all result in inflammation, which then causes plaque to grow in the artery walls. If the plaque ruptures, blood clots can form, leading to increased risk for heart attack or chest pain.\nYour doctor may order a simple blood test to check your C-reactive protein (CRP) levels, which can reflect the degree of vascular inflammation."
+    "chunk_index": "p30_c35",
+    "page": 30,
+    "text": "[Page 30]\n30 PSEUDO-COLOR ENHANCEMENT: AN EXAMPLE Why do we have the same color for the explosives and background? Why do we have the same color for the explosives and garment bag?"
   },
   {
-    "chunk_index": "text_36",
-    "text": "10. Physical inactivity\nLack of exercise is a major contributor to obesity, diabetes, and hypertension. Beginning an exercise program may help you feel better, help you have more energy, help you lose some weight, lower your cholesterol, lower your blood pressure, help you look better, and improve your muscle tone. Also, beginning an exercise routine can increase your HDL-cholesterol or 'good cholesterol' especially if exercise is associated with weight loss. A physical exercise program is associated with a reduction in systemic markers of vascular inflammation such as C-reactive protein levels.\nExercise Exercise\nCurrently, only 22% of adults in the United States exercise at a level that benefits their cardiovascular systems. What are some important considerations?\n- 1) Type of exercise\n- 2) Amount and regularity of exercise\n- 3) Intensity of exercise"
+    "chunk_index": "p31_c36",
+    "page": 31,
+    "text": "[Page 31]\n31 COMBINATION OF SEVERAL MONOCHROME IMAGES INTO A SINGLE COLOR COMPOSITE"
   },
   {
-    "chunk_index": "text_37",
-    "text": "Aerobic exercise\nTo meet your general fitness goals, the best type of exercise is aerobic exercise.\nAerobic exercise does not necessarily require special equipment or a health club membership. Aerobic exercises are those that require a lot of oxygen. These exercises include walking, jogging, cycling, swimming, cross-country skiing, or rowing."
+    "chunk_index": "p32_c37",
+    "page": 32,
+    "text": "[Page 32]\n32 3 MONOCHROME IMAGES ARE COMBINED visible blue visible red visible green near infrared First 3 images are combined into an RGB image Red component was replaced with the infrared image Note that the infrared band is strongly responsive to the biomass components in a scene"
   },
   {
-    "chunk_index": "text_38",
-    "text": "2. Amount and regularity of exercise\nThe U.S. Surgeon General recommends that healthy adults exercise 20 to 30 minutes, 5 days a week.\nThere are nearly 50 half hours in a 24-hour day. Exercising for 30 minutes daily requires only about 2% of your total day. Try to find 1, or 2, or 3 exercises you like to do. You'll enjoy the variety."
+    "chunk_index": "p33_c38",
+    "page": 33,
+    "text": "[Page 33]\n33 COMBINING IMAGES FROM A SPACECRAFT This image was obtained by combining several of the sensor images from the Galileo spacecraft. One way to combine the sensed image data is by how they show differences in surface chemical composition. Bright red depicts material newly ejected from an active volcano. Surrounding yellow materials are older sulfur deposits."
   },
   {
-    "chunk_index": "text_39",
-    "text": "Warm up\nBy walking or cycling slowly, you move the blood out to the working muscles. A warm-up should start slowly and last 5 to 10 minutes."
+    "chunk_index": "p34_c39",
+    "page": 34,
+    "text": "[Page 34]\n34 BASICS OF FULL-COLOR IMAGE PROCESSING Two major categories of full- color IP approaches Each component image is processed individually, and a composite color image is formed from the components. Color pixels (which are vectors) are directly processed. Two conditions have to be satisfied for per-color- component and vector-based processing to be equivalent. The process has to be applicable to both scalars and vectors. The operation on each component of a vector must be independent of the other components. Example: Suppose the process is neighborhood averaging. Same result would be obtained u"
   },
   {
-    "chunk_index": "text_40",
-    "text": "Simply -\nBy slowing down the pace, you may be able to exercise for a longer period of time.\nMany exercise physiologists use the following generally accepted formula to determine the exercise target heart rate of a healthy individual. If you have a history of cardiovascular disease, or if you are just starting a program, check with your doctor before starting an exercise routine .\nYour doctor is aware of the many factors that may need to be considered in modifying your exercise intensity.  Please be sure to ask your doctor for a recommended Target Heart Rate Range.'"
+    "chunk_index": "p34_c40",
+    "page": 34,
+    "text": "[Page 34]\ncomponents. Example: Suppose the process is neighborhood averaging. Same result would be obtained using the scalar and vector methods."
   },
   {
-    "chunk_index": "text_41",
-    "text": "Important!\nTo begin your exercise program, it may be advantageous for you to exercise only 15 to 20 minutes daily for the first few weeks. This may help you more easily establish a consistent exercise routine. Check with your doctor for input on your exercise program.\nIf you are just starting an exercise program, probably the simplest exercise to try is walking. It is fairly easy to do for 20 minutes."
+    "chunk_index": "p35_c41",
+    "page": 35,
+    "text": "[Page 35]\n35 COLOR TRANSFORMATIONS - FORMULATION g(x,y) = T[f(x,y)]: pixels values are triplets or quartets. si = Ti(r1,r2,…,rn): si and ri: variables denoting the color components {T1,T2,…,Tn}: set of transformation functions For RGB color space, n=3. For CMYK color space, n=4. Example: g(x,y)=kf(x,y), 0<k<1: intensity modification Any color space can be used. HSI color space: s3=kr3, s1=r1, s2=r2 RGB color space: si=kri, i=1,2,3 CMY color space: si=kri+(1-k), i=1,2,3 In this case, although the HSI transformation involves the fewest # of operations, the computations required to convert an"
   },
   {
-    "chunk_index": "text_42",
-    "text": "How hard and how often should I exercise?\nWhen you are just starting out, try to exercise very comfortably. Here are 4 quick tips.\n- 1) Try to exercise so that you are breathing noticeably but are not out of breath. Remember this simple rule: you should be able to carry on a conversation while you are exercising.\n- 2) Sweating is a good thing. This means that your body is working hard enough and receiving the necessary stimulus for the muscles and the heart.\n- 3) If you are not fatigued and are completely recovered from exercising on the previous day, then you should exercise daily .\n- 4) Give yourself a warm-up before exercise (several minutes of easy walking) and a cooldown at the end of exercise (again, several minutes of easy walking). Ask an exercise specialist for some recommendations for stretching after your workout, and discuss the intensity of the exercise with your doctor."
+    "chunk_index": "p35_c42",
+    "page": 35,
+    "text": "[Page 35]\nthe HSI transformation involves the fewest # of operations, the computations required to convert an RGB or CMY(K) image more than offsets the advantages!"
   },
   {
-    "chunk_index": "text_43",
-    "text": "VERY, VERY important\nCool down. As important as the warm-up and the aerobic exercise are to improving your fitness, you must also include a cooldown as part of your exercise routine.\nYour cooldown should be just like your warm-up. At the end of your exercise routine, give yourself 5 to 10 minutes of nice, easy walking. You also may want to include some mild stretching."
+    "chunk_index": "p36_c43",
+    "page": 36,
+    "text": "[Page 36]\n36 COLOR-SPACE COMPONENTS OF A FULL-COLOR IMAGE CMYK RGB HSI"
   },
   {
-    "chunk_index": "text_44",
-    "text": "Another consideration water\nWater is needed for virtually every function of the body. The body is approximately 70% water.\nDuring the course of the day, you lose water through sweating, breathing, and waste. Replacement of water (rehydration) is important especially when participating in an exercise program.\nA prudent recommendation is that you should drink 6 to 10 glasses of water per day. Sorry, caffeinated drinks and alcohol do not count. They are 'diuretics,' meaning that they actually may cause you to lose even more water.\nNutrition Nutrition\nProper nutrition is an important aspect of our lives   especially for individuals who have heart disease. For example, it is possible to lower your blood cholesterol by changing what you eat. Things that you can do to reduce your cholesterol vary by food group. Start by making changes in one area at a time.\nHere's a brief review of the different food groups and a few simple recommendations for healthier eating."
+    "chunk_index": "p38_c44",
+    "page": 38,
+    "text": "[Page 38]\n38 COLOR COMPLEMENTS The hues directly opposite one another on the color circle are called complements. Complements are analogous to gray-scale negatives: they are useful in enhancing detail embedded in dark region of a color image. The RGB complement transformation functions used here do not have a straightforward HSI color space equivalent."
   },
   {
-    "chunk_index": "text_45",
-    "text": "Fats\nNot all fats are bad.\nMonounsaturated fats are 'good' fats. Examples of monounsaturated fats include olive and canola oils, peanut butter, and nuts.\nPolyunsaturated fats are 'acceptable' fats. Examples of polyunsaturated fats include margarine made with corn or safflower oils and some nuts.\nSATURATED FAT\nSaturated fats are the 'bad' fats, particularly the ' trans ' fats . Saturated fats are usually solid at room temperature. Examples of saturated fats include lard, butter, and cream cheese. Examples of 'trans' fats include partially hydrogenated vegetable oils found in many snack foods.\nIt is difficult to eat a diet without saturated fat unless you are on a strict vegetarian diet. While we need fats in our diet, we also need to choose our foods wisely, especially meats, eggs, and dairy products."
+    "chunk_index": "p39_c45",
+    "page": 39,
+    "text": "[Page 39]\n39 COLOR SLICING Highlighting a specific range of colors in an image is useful for separating objects from their surroundings. The most straightforward approach is to extend the gray-level slicing techniques. si = Ti(r1,r2,…,rn): si is a function of all ri. Colors of interest are enclosed by a cube: 0.5 if [|rj – aj| > W/2]any 1jn si = i = 1,2,…,n ri otherwise Colors of interest are enclosed by a sphere: 0.5 if (rj – aj)2 > (R0)2 si = i = 1,2,…,n ri otherwise The width of the cube and the radius of the sphere were determined interactively."
   },
   {
-    "chunk_index": "text_46",
-    "text": "Fats\nPeople who have had a cardiac event, or people who have high cholesterol and are at risk for cardiovascular disease, should contact a dietitian about reducing their saturated fat intake and limiting their intake of alcohol, caffeine, and salt. The dietitian will also be able to review the amount of sugar you are eating especially sugars found in 'no fat' snack foods."
+    "chunk_index": "p40_c46",
+    "page": 40,
+    "text": "[Page 40]\n40 AN EXAMPLE OF COLOR SLICING Reds within an RGB cube Reds within an RGB sphere Edible parts of the strawberries are separated! In each of the 2 cases below, a prototype red with RGB color coordinate (0.6863,0.1608,0.1922) was selected from the most prominent strawberry."
   },
   {
-    "chunk_index": "text_47",
-    "text": "Meats\nAs mentioned, limit the amount of fatty meats, particularly those foods that are very high in saturated fats (bacon, sausage, and prime rib), to 1 or 2 servings per week. Cook meats using little or no fat, such as baking, broiling, grilling, stewing, or stir-frying without adding fat. Always trim off the obvious fat before cooking red meats and remove the skin before cooking chicken."
+    "chunk_index": "p41_c47",
+    "page": 41,
+    "text": "[Page 41]\n41 HISTOGRAM PROCESSING It is generally unwise to histogram equalize the components of a color image independently. This results in erroneous color. A more logical approach is to spread the color intensities uniformly, leaving the colors themselves (e.g., hues) unchanged. The HSI color space is ideally suited to this approach. The intensity component is histogram equalized. The saturation component is increased after histogram equalization"
   },
   {
-    "chunk_index": "text_48",
-    "text": "Eggs\nIt used to be thought that these were the main culprits of elevated cholesterol. This may not be true. However, if you have elevated cholesterol or a history of heart disease, you should limit egg yolks to no more than 3 or 4 per week. Egg whites or 'egg substitutes' have no cholesterol and do not need to be limited."
+    "chunk_index": "p42_c48",
+    "page": 42,
+    "text": "[Page 42]\n42 COLOR IMAGE SMOOTHING  xy S y x y x R K ) , ( ) , ( 1  xy S y x y x G K ) , ( ) , ( 1  xy S y x y x B K ) , ( ) , ( 1    xy S y x y x c K y x c ) , ( ) , ( 1 ) , (  ) , ( y x c Smoothing by neighborhood averaging can be carried out using either individual color planes or the RGB color vectors."
   },
   {
-    "chunk_index": "text_49",
-    "text": "Dairy products\nSwitch from whole milk to 2% and then to 1% or even skim milk. Use low-fat cheeses, yogurt and sour cream. For a healthier dessert, look for low-fat ice cream or sherbet.\nDAIRY PRODUCTS"
+    "chunk_index": "p44_c49",
+    "page": 44,
+    "text": "[Page 44]\nHSI PLANES a be FIGURE 6.39 HSI components of the RGB color image in Fig. 6.38(a). (a) Hue. (b) Saturation. (c) Intensity. 44"
   },
   {
-    "chunk_index": "text_50",
-    "text": "Whole grains, fruits, and vegetables\nAnother thing you can do to help improve your overall diet is to eat a variety of healthier foods. The American Heart Association recommends that you try to increase the number of servings of foods that are high in whole grains, such as breads and cereals, and try to have at least 5 servings of fruits and vegetables every day."
+    "chunk_index": "p45_c50",
+    "page": 45,
+    "text": "[Page 45]\n45 SMOOTHED IMAGES By smoothing only the intensity plane, the pixels in the smoothed image maintain their original hue and saturation – and their original color!"
   },
   {
-    "chunk_index": "text_51",
-    "text": "What if changing your risk factors, beginning an exercise program, and modifying your diet do not help?\nWhat's next?\nYour doctor may refer you to a heart specialist called a cardiologist . The cardiologist may have to consider several options including medications or surgical intervention such as angioplasty or bypass surgery ."
+    "chunk_index": "p46_c51",
+    "page": 46,
+    "text": "[Page 46]\n46 COLOR IMAGE SHARPENING   )] , ( [ 2 y x c ) , ( 2 y x R  ) , ( 2 y x G  ) , ( 2 y x B  The Laplacian The Laplacian of a full- color image can be obtained by computing the Laplacian of each component plane separately."
   },
   {
-    "chunk_index": "text_52",
-    "text": "Angioplasty, Bypass Surgery, and Medications Angioplasty, Bypass Surgery, and Medications\nLet's suppose there is a blockage in the left anterior descending artery.\nThe shaded area in the drawing is not receiving blood. If this portion of the heart goes too long without enough oxygen, then the muscle may die."
+    "chunk_index": "p47_c52",
+    "page": 47,
+    "text": "[Page 47]\n47 SHARPENED IMAGES Obtained by combining the Laplacian of the intensity plane with the unmodified hue and saturation planes."
   },
   {
-    "chunk_index": "text_53",
-    "text": "Thrombolytics\nMost often, a heart attack is caused by a blood clot (thrombus) at a site of atherosclerotic plaque disruption within the coronary artery.  Blood clots can completely block blood flow in the artery and cause a heart attack. If a person gets to a hospital emergency room, usually within 30 minutes of the onset of chest pain, either coronary angioplasty or clot-dissolving medications called thrombolytics\nmay be used to open the blocked artery and restore coronary blood flow. The restoration of blood flow to the heart muscle can save heart muscle. Coronary angioplasty is currently the preferred treatment for a heart attack."
+    "chunk_index": "p48_c53",
+    "page": 48,
+    "text": "[Page 48]\n48 COLOR SEGMENTATION IN HSI COLOR SPACE Assume we want to segment an image based on color, and to carry out the process on individual planes. HSI space: Hue plane conveniently represents the color. Saturation plane is used as a masking image. Intensity plane is seldom used because it carries no color information. The binary mask is generated by thresholding the saturation plane with T = 0.1x(maximum value in the saturation plane). The product image is thresholded with T = 0.9"
   },
   {
-    "chunk_index": "text_54",
-    "text": "Angioplasty\nAngioplasty is a procedure by which the cardiologist inserts a balloon catheter over a thin wire across a blockage of a coronary artery.\nThe balloon is inflated to compress the plaque. This is repeated as necessary by the cardiologist.\nInflating the balloon catheter compresses and splits open the plaque. This allows more room for the blood to flow.\nThe balloon catheter also stretches the elastic wall of the artery. Small tears occur on the inside of the artery wall and slightly injure the artery wall as a result of balloon catheter inflation. These issues, which may complicate balloon angioplasty and result in coronary reocclusion, are most effectively dealt with by insert- ing a stent to better assure continued proper blood flow in the coronary artery."
+    "chunk_index": "p49_c54",
+    "page": 49,
+    "text": "[Page 49]\n49 COLOR SEGMENTATION IN RGB COLOR SPACE RGB color vectors generally result in better segmentation results. A set of sample points representative of the colors of interest is given. Obtain an estimate of the average color that will be segmented. Classify each pixel in the given image with according to the specified range. One measure of similarity is the Euclidean distance: D(z,a) = ||z-a|| = [(z-a)T(z-a)]1/2 = [(zR-aR)2 + (zG-aG)2 + (zB- aB)2]1/2 D(z,a)D0 D(z,a)=[(z-a)TC-1(z-a)]1/2D0 Computationally much simpler!"
   },
   {
-    "chunk_index": "text_55",
-    "text": "Stents\nIn most instances, the cardiologist may decide to insert a stent inside the coronary artery. The stent, usually made of stainless steel or other (cobalt chromium or platinum) metal alloys, functions as a scaffold to hold open the inside of the coronary artery.\nIn most instances, the cardiologist may decide to insert a stent inside the coronary artery. The stent, usually made of stainless steel or other (cobalt chromium or platinum chromium) metal alloys, functions as a scaffold to hold open the inside of the coronary artery. Recently, a stent made of dissolvable polymer has been approved for use by the U.S. FDA. This stent (bioresorbable scaffold) holds open the artery, medicates and heals the artery and then slowly dissolves over 2-3 years, leaving nothing behind.\nStents are usually put in place using a balloon angioplasty catheter. Stents can reduce the incidence of both"
+    "chunk_index": "p50_c55",
+    "page": 50,
+    "text": "[Page 50]\n50 AN EXAMPLE OF COLOR SEGMENTATION IN RGB COLOR SPACE Compute the mean vector a using the points contained within the rectangle. Center the box at a. Compute the standard deviation of the R,G,B values of the sample points. Determine the dimension along each axis by computing 1.25xSD. R: SD of red components Dimension along the R-axis: (aR – 1.25R) to (aR + 1.25R)"
   },
   {
-    "chunk_index": "text_56",
-    "text": "Stents\nshort- and long-term coronary artery re-occlusion. Stents can seal and 'tack up' tissue flaps within the artery that are created when a balloon catheter injures the artery. Unfortunately, stents do not eliminate clot formation or the occurrence of heart attack following the procedure.\nNewer stents are treated with medicines that reduce inflammation and minimize scar tissue, which could clog the stent. Compared to non-medicated 'bare metal' stents, these devices significantly reduce the risk of repeated blockages and the need to have another angioplasty or coronary bypass procedure. Newer medicated stents may also be associated with less risk for clotting than bare metal stents.\nWhat can be done to reduce blood clot formation and reduce the risk of re-occlusion?"
+    "chunk_index": "p51_c56",
+    "page": 51,
+    "text": "[Page 51]\n51 COLOR EDGE DETECTION The gradient introduced in Chapter 3 is not defined for vector quantities. So, computing the gradient on individual planes, and then using the results to form a color image will lead to erroneous results. We need to define the gradient for c(x,y) = [R(x,y) G(x,y) B(x,y)]T A method has been proposed by Di Zenzo in 1986: Direction of max rate of change: Value the rate of change:            ) 1 ( 2 tan 2 1 yy xx xy g g g    2 1 2 sin 2 2 cos ) ( ) ( 2 1 ) (           xy yy xx yy xx g g g g g F"
   },
   {
-    "chunk_index": "text_57",
-    "text": "Antiplatelet therapy\nAfter angioplasty, the blood platelets may be susceptible to 'sticking together' and forming clots. To reduce this\nlikelihood, cardiologists have historically administered aspirin and 'blood thinning' medications called heparin or bivalirudin during the angioplasty procedure. Although these medicines have been shown to reduce the chance of clot formation during and after angioplasty, they have limited effectiveness. Newer medications have been developed to further improve results."
+    "chunk_index": "p52_c57",
+    "page": 52,
+    "text": "[Page 52]\n52 AN EXAMPLE OF COLOR EDGE DETECTION USING 2 APPROACHES Both approaches yielded reasonable results. Is the extra detail worth the added computational burden of the vector approach? The edge detail is more complete!"
   },
   {
-    "chunk_index": "text_58",
-    "text": "Improved outcomes\nA class of medicines called platelet IIb/IIIa receptor blockers has been developed that reduces blood clot formation during\nand following angioplasty. These medicines are administered intravenously (by vein). These blockers act like 'bumpers' attached to the blood platelets and prevent platelets from sticking together and forming blood clots.\nPlatelet IIb/IIIa blockers can reduce the likelihood of stent clotting (thrombosis) immediately following stent treatment particularly when the stent was used to treat a heart attack.\nIn addition, before or immediately after coronary stent placement, oral antiplatelet therapy and aspirin taken together can also prevent blood clots from forming on the stent, thus reducing the risk of heart attack or stroke."
+    "chunk_index": "p53_c58",
+    "page": 53,
+    "text": "[Page 53]\nCOMPONENT GRADIENT IMAGES ai bic FIGURE 6.47 Component gradient images of the color image in Fig. 6.46. (a) Red component, (b) green com- I - ry be . by br I . 5a ponent, and (c) blue component. These three images were added and scaled to produce the image in Fig. 6.46(c). 53"
   },
   {
-    "chunk_index": "text_59",
-    "text": "Dual antiplatelet therapy\nAfter angioplasty, unless you have complications, your doctor will most likely prescribe two medications: (a) aspirin plus (b) a medication that works with aspirin to reduce the risk of another heart attack. The use of both medications at the same time is called 'dual antiplatelet therapy.'\nIn dual antiplatelet therapy, the two medications work together to prevent clot formation in the stent and reduce the risk of heart attack. The current recommendations suggest that patients should receive both medications for at least one year following a heart attack and for at least 6 months after a stent is placed in someone not having a heart attack."
+    "chunk_index": "p54_c59",
+    "page": 54,
+    "text": "[Page 54]\n54 NOISE IN COLOR IMAGES The noise models discussed in Chapter 5 are applicable to color images. Gaussian noise Rayleigh noise Erlang noise Exponential noise Uniform noise Impulse (salt and pepper) noise Usually, the noise content of a color image has the same characteristics in each color channel. However, it is possible for color channels to be affected differently by noise."
   },
   {
-    "chunk_index": "text_60",
-    "text": "Bypass surgery\nBypass surgery is a cardiovascular procedure designed to correct blood flow to the heart that angioplasty cannot correct. The cardiovascular surgeon uses a piece of artery and/ or vein to reroute blood around the blockage.\nThe surgeon may use a vein from the leg, and/or the internal mammary artery found in the chest, and/or the gastroepiploic artery of the stomach, and/or the radial artery of the forearm.\nThe vein is attached to the aorta. The supply of blood is then rerouted around the blockage. One piece of vein may be used for multiple bypasses. The number of blockages where blood has been rerouted   - not the number of veins used determines the number of bypasses.\nIf the internal mammary artery is used, the artery originates from a branch off the aorta and is reattached to the coronary artery downstream to the blockage."
+    "chunk_index": "p55_c60",
+    "page": 55,
+    "text": "[Page 55]\n55 GAUSSIAN NOISE IN A COLOR IMAGE Fine grain noise tends to be less noticeable in color images."
   },
   {
-    "chunk_index": "text_61",
-    "text": "Bypass surgery\nNewer techniques allow bypass surgery to be performed 'off-pump' (without circulating the blood through the bypass pump 'heart and lung' machine) for some patients. Less invasive procedures - including robot-assisted bypass surgery - are also being evaluated.  Because they can be used only for a certain number of bypasses, these surgery techniques are not appropriate for many patients."
+    "chunk_index": "p56_c61",
+    "page": 56,
+    "text": "[Page 56]\n56 NOISY RGB IMAGE CONVERTED TO HSI Compare The degradation in hue and saturation planes is due to the nonlinearity of cos and min operations! The intensity plane is slightly smoother than any of the 3 RGB noisy planes. ) ( 3 1 B G R I    Image averaging reduces random noise!"
   },
   {
-    "chunk_index": "text_62",
-    "text": "What should I do after my heart procedure?\nYour doctor will manage your care very closely. Generally, the cardiologist may recommend that you:\n- quit smoking\n- take a beta blocker drug (after a heart attack)\n- discuss a cholesterol treatment plan with your physician\n- take a daily enteric-coated aspirin (81 mg or greater) unless you have other medical complications\n- keep strict control of diabetes\n- follow a 'heart-healthy diet' and begin a basic exercise program, mainly walking. Always follow your doctor's recommendations.\nQuestions Questions\nHere are some questions you may want to take with you the next time you go to see your doctor."
+    "chunk_index": "p57_c62",
+    "page": 57,
+    "text": "[Page 57]\n57 ONE NOISY RGB CHANNEL AFFECTS ALL HSI PLANES The noise spreads from the green channel to all the HSI planes."
   },
   {
-    "chunk_index": "text_63",
-    "text": "What are my medications? What is each one for?\nAnswer\nList the blood pressure reading for each visit to your doctor and the date:\nDate\nBlood Pressure\nList the total cholesterol (TC), LDL-cholesterol (LDL), triglycerides (Trig), and HDL-cholesterol (HDL) readings for each visit to your doctor.\nHDL"
-  },
-  {
-    "chunk_index": "text_64",
-    "text": "Do I have any exercise limitations of which I should be aware? What are they?\nAnswer\nShould I have a treadmill test before I start to exercise? What is my target heart rate?\nAnswer\nBased on my weight, blood pressure, and blood cholesterol level, should I talk to someone about changing my diet? Yes          No\nContact your local hospital for the name of a registered dietitian.\nDietitian\nAddress\nPhone\nAre there any concerns that I should be aware of before having/resuming sexual activity?\nAnswer"
-  },
-  {
-    "chunk_index": "text_65",
-    "text": "And now for a little heart to heart \u2026 And now for a little heart to heart \u2026\nIt has been mentioned throughout the book, but the importance of seeing your doctor and having a complete physical exam cannot be stressed enough. If necessary, sit down with a dietitian and review your current eating pattern. Then, if your doctor agrees, get moving. Start a simple exercise program - mainly walking. There are no guarantees you will reduce your risk of having a cardiac event, but at least you will be taking an aggressive approach to improving your health."
-  },
-  {
-    "chunk_index": "text_66",
-    "text": "Bibliography\nAmerican College of Sports Medicine position stand. 'The Recommended Quality and Quantity of Exercise for Developing and Maintaining Cardiorespiratory and Muscular Fitness in Healthy Adults.' Medicine and Science in Sports and Exercise April 1990.\nAmerican Diabetes Association (2014). Living with diabetes. Retrieved October 19, 2014, from http://www. diabetes.org\nAmerican Heart Association Consensus Panel Statement. 'Preventing Heart Attack and Death in Patients With Coronary Disease.' Circulation 1995; 2-4.\nAngell, M. 'Caring for women's health - What is the problem?' New England Journal of Medicine 1993: 271.\nBurke, A.P., and A. Farb, G.T. Malcom, Y. Liang, J. Smialek, R. Virmani. 'Coronary Risk Factors and Plaque Morphology in Men with Coronary Disease Who Died Suddenly.' New England Journal of Medicine 1 May 1997: 1276-1282.\nCogswell, M.E. 'Nicotine Withdrawal Symptoms.' North Carolina Medical Journal 1 Jan. 1995:  40-45."
-  },
-  {
-    "chunk_index": "text_67",
-    "text": "Bibliography\nCenters for Disease Control and Prevention (2014). Childhood Obesity Facts. Retrieved October 19, 2014, from http://www.cdc.gov/healthyyouth/obesity/facts.htm\nChan, A. W., D.J. Moliterno, P.B. Berger, et al. 'Triple antiplatelet therapy during percutaneous coronary intervention is associated with improved outcomes including one-year surviaval: results from the Do Tirofiban and ReoPro Give Similar Efficacy Outcome Trial (TARGET).' Journal of American College of Cardiology 2003; 42:1188-1195.\nCollins, R., and R. Peto, C. Baigent, P. Sleight. 'Aspirin, Heparin, and Fibrinolytic Therapy in Suspected Acute Myocardial Infarction.' New England Journal of Medicine 20 March 1997: 847-860.\nDa Costa, F.D., et al. 'Myocardial Revascularization with the Radial Artery: A Clinical and Angiographic Study.' Annals of Thoracic Surgery Aug. 1996: 475-480."
-  },
-  {
-    "chunk_index": "text_68",
-    "text": "Bibliography\nDanesh, J., J.G. Wheeler, G . Hirschfield, et al. 'C-reactive protein and other circulation markers of inflammation in the prediction of coronary heart disease.' New England Journal of Medicine 2004; 350:1387-1397.\nEckel, R.H. 'Obesity in Heart Disease.' Circulation 1997: 3248-3250.\n- Ervine, R.B. (2009). Prevalence of Metabolic Syndrome Among Adults 20 Years of Age and Over, by Sex, Age, Race and Ethnicity, and Body Mass Index; United States, 2003-2006. Retrieved October 19, 2014, from http://www.cdc.gov/nchs/data/nhsr/nhsr013.pdf\nExecutive Summary of the Third Report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III). JAMA, May 16, 2001, Vol. 285, No. 19: 2486-2497."
-  },
-  {
-    "chunk_index": "text_69",
-    "text": "Bibliography\n- Friedman, G.D., and A.L. Klatsky. 'Is Alcohol Good for Your Health?' New England Journal of Medicine 16 Dec. 1993: 1882-1883 Gellar, A. 'Common Addictions.' Clinical Symposia . Ciba-Geigy Corporation 1996.\n- Grossman, E., and F.H. Messerli. 'Diabetic and Hypertensive Heart Disease.' Annals of Internal Medicine 15 Aug. 1996: 304-310.\n- Grundy, S.M., J.I. Cleeman, C.N.B. Merz et al. 'Implications of recent clinical trials for the national cholesterol education program adult treatment panel III guidelines.' Circulation 2004; 110:227-239.\n- Henningfield, J.D., and R.M. Keenan. 'The Anatomy of Nicotine Addiction.' Health Values March/April 1993: 12-19."
-  },
-  {
-    "chunk_index": "text_70",
-    "text": "Bibliography\n- James, P.A., Oparil, S., Carter, B. L. (2014). 2014 Evidence-Based Guideline for the Management of High Blood Pressure in Adults. Retrieved October 19, 2014, from http://jama.jamanetwork.com/article. aspx?articleid=1791497\n- Joint National Committee. The Fifth Report of the Joint National Committee on Detection, Evaluation, and Treatment of High Blood Pressure. Bethesda (MD): National Institutes of Health, National Heart, Lung, and Blood Institute; 1993. NIH publication No. 93-1008.\n- Kannel, W.B., and R.B. D'Agostino, J.L. Cobb. 'Effects of Weight on Cardiovascular Disease.' American Journal of Clinical Nutrition March 1996: 419S-422S.\n- Kenney, W.L. et al. American College of Sports Medicine Guidelines for Exercise Testing and Prescription . 5th ed. Media, Pa.: Williams & Wilkins, 1995."
-  },
-  {
-    "chunk_index": "text_71",
-    "text": "Bibliography\n- Kereiakes, D.J., Yeh, R.W., Massaro, J.M., et al. on behalf of the DAPT study investigators (2014). Drug-Eluting or Bare Metal Stents in Patients Receiving Dual Antiplatelet Therapy . Manuscript submitted for publication.\nKoenig, W., H. Lowel, J. Baumert, and C. Mesisinger. 'C-reactive protein modulates risk prediction based on the Framingham score. Implications for future risk assessment: results from a large cohort study in Southern German.' Circulation 2004; 109:1349-1353.\nKong, D.F., V. Hasselblad, and R.A. Harrington et al. 'Meta-analysis of survival with platelet glycoprotein IIb/IIIa antagonists for percutaneous coronary interventions.' American Journal of Cardiology 2003; 92:651-655."
-  },
-  {
-    "chunk_index": "text_72",
-    "text": "Bibliography\nLincoff, A.M., I.A. Bittle, and R.A. Harrington et al. 'Bivalirudin and provisional glycoprotein IIb/IIIa blockade compared with heparin and planned glycoprotein IIb/IIIa blockade during percutaneous coronary intervention: REPLACE-2 randomized trial.' Journal of the American Medical Association 2003; 289:853-863.\nMargolis, S., and P.J. Goldschmidt-Clermont. The Johns-Hopkins White Papers . Baltimore: The Johns-Hopkins Medical Institutions, 1996."
-  },
-  {
-    "chunk_index": "text_73",
-    "text": "Bibliography\n- Mauri, L., Kereiakes, D.J., Yeh, R.W., et al. for the DAPT study investigators (2014). Dual Antiplatelet Therapy Beyond One Year After Drug-eluting Coronary Stent Procedures . Manuscript submitted for publication.\n- McCarron, D.A., and M.E. Reusser. 'Body Weight and Blood Pressure Regulation.' American Journal of Clinical Nutrition March 1996: 423S-425S.\n- Meeker, M.H., and J.C. Rothrock. Alexander's Care of the Patient in Surgery, 10th ed. St. Louis: Mosby, 1995.\n- Mehta, S.R., S. Yusuf, and R. J. Peters et al. 'Effects of pretreatment with clopidogrel and aspirin followed by long-term  therapy in patients undergoing percutaneous coronary intervention: the PCI-CURE study.' Lancet 2001; 358: 527-533.\n- Office of the Surgeon General (2010). The Surgeon General's Vision for a Healthy and Fit Nation U.S. Department of Health and Human Services."
-  },
-  {
-    "chunk_index": "text_74",
-    "text": "Bibliography\n. Rockville, MD:\nPearson, T.A.,G.A. Mensah, R.W. Aleander, et al. 'Markers of inflammation and cardiovascular disease. Application to clinical and public health practice. Circulation 2003; 107:499-511.\nPeterson, J.A., and C.X. Bryant, The Fitness Handbook; 2nd edition, St. Louis: Wellness Bookshelf, 1995.\nPeterson, T.A., G.A. Mensah, and R.W. Alexander et al. 'Markers of inflammation and cardiovascular disease. Application to clincial and public health practice.' Circulation 2003; 107:499-511.\nRidker, P.M. 'Clinical application of C-reactive protein for cardiovascular disease detection and prevention.' Circulation 2003; 107: 363-369."
-  },
-  {
-    "chunk_index": "text_75",
-    "text": "About the Authors\nDr. Dean J. Kereiakes is one of the country's preeminent cardiologists. Dr. Kereiakes is Medical Director for The Christ Hospital Heart and Vascular Center and The Carl and Edyth Lindner Center for Research and Education, as well as Clinical Professor of Medicine at The Ohio State University. He frequently lectures worldwide and has published over 700 scientific articles and papers. Dr. Kereiakes lives in Cincinnati, Ohio.\nDouglas Wetherill, MS , designs corporate wellness strategies for companies across the country. He lives in Cincinnati, Ohio.\nFor additional copies of Heart Disease: What You Should Know \u2122*, please contact Robertson & Fisher Publishing at info@yourhealthseries.com.\nOther titles in the series Your Health: What You Should Know\u2122:\nAsthma: What You Should Know \u2122\nCongestive Heart Failure: What You Should Know\nDiabetes: What You Should Know*\nHigh Cholesterol: What You Should Know\u2122\nWomen's Health Over 40: What You Should Know\u2122\nWomen's Health Under 40: What You Should Know\u2122\n*Titles also available in Spanish\n\u2122"
-  },
-  {
-    "chunk_index": "text_76",
-    "text": "About the Authors\nA guide for healthy living, this book provides you with clear, concise information about how your heart works, risk factors, lifestyle modification and some treatment options.\nBe smart about your health. Understanding how heart disease affects your body is the first crucial step.\n'No fancy language, no heavy medical terms Heart Disease: What You Should Know tells you what you need to know in plain English.'\n- Dr. Eric J. Topol\nDirector of the Scripps Translational Science Institute and Chief Academic Officer Scripps Health, La Jolla, CA\nWatch for other books in the Your Health: What You Should Know TM   series."
-  },
-  {
-    "chunk_index": "table_p0_0",
-    "text": "[Table on Page 1]\n, , Disease\nat you should know\n, Heart\nwh, Dise\nat you sho\nVital information about:\n\u2022 your heart\n\u2022 cardiac risk factors\n\u2022 lifestyle modification\n\u2022 treatment options\nDean J. Kereiakes, MD, FACC, and Douglas Wetherill, MS, , "
-  },
-  {
-    "chunk_index": "table_p16_0",
-    "text": "[Table on Page 17]\nHEAD AND AORTIC\nBODY VALVE\nAORTA\nLEFT\nVENTRICLE, AORTIC\nVALVE"
-  },
-  {
-    "chunk_index": "table_p25_0",
-    "text": "[Table on Page 26]\n, ARTERY WALL\n, "
-  },
-  {
-    "chunk_index": "table_p29_0",
-    "text": "[Table on Page 30]\n, ACK OF\nLOOD FLOW\nBLOCKA, \nL\nB, ACK OF\nLOOD FLOW, \n, , BLOCKA"
-  },
-  {
-    "chunk_index": "table_p35_0",
-    "text": "[Table on Page 36]\n, CELL\nMEMBRANE\nCHOLESTEROL\nTESTOSTERONE\nLE ACID ESTROGEN\nBI, LE ACID"
-  },
-  {
-    "chunk_index": "table_p49_0",
-    "text": "[Table on Page 50]\nPANC, REAS"
-  },
-  {
-    "chunk_index": "table_p49_1",
-    "text": "[Table on Page 50]\nBLOOD, "
-  },
-  {
-    "chunk_index": "table_p49_2",
-    "text": "[Table on Page 50]\nINSULI\nBEING\nRELEA\nBY TH\nPANCR, N\nSED\nE\nEAS"
-  },
-  {
-    "chunk_index": "table_p49_3",
-    "text": "[Table on Page 50]\nBODY\nA SIGN\nTHE PA\nTO REL\nINSULI, SENDING\nAL TO\nNCREAS\nEASE\nN"
-  },
-  {
-    "chunk_index": "table_p50_0",
-    "text": "[Table on Page 51]\nPANCREA, S"
-  },
-  {
-    "chunk_index": "table_p50_1",
-    "text": "[Table on Page 51]\n, "
-  },
-  {
-    "chunk_index": "table_p86_0",
-    "text": "[Table on Page 87]\n100%\n50%\n0, 15 seconds"
-  },
-  {
-    "chunk_index": "table_p103_0",
-    "text": "[Table on Page 104]\nREMOV\nFROM C, , \n, REMOV\nFROM C, E SKIN\nHICKEN"
-  },
-  {
-    "chunk_index": "table_p103_1",
-    "text": "[Table on Page 104]\nTR\nRE, IM FAT OFF\nD MEAT"
-  },
-  {
-    "chunk_index": "table_p104_0",
-    "text": "[Table on Page 105]\nEGGS\n"
-  },
-  {
-    "chunk_index": "table_p106_0",
-    "text": "[Table on Page 107]\nFRUITS\n"
-  },
-  {
-    "chunk_index": "table_p106_1",
-    "text": "[Table on Page 107]\nVEGETABLES\n"
-  },
-  {
-    "chunk_index": "table_p142_0",
-    "text": "[Table on Page 143]\n, , \n, , \n, , "
-  },
-  {
-    "chunk_index": "image_p0_0",
-    "text": "[Image on Page 1]: image_p1_0.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p1_0",
-    "text": "[Image on Page 2]: image_p2_0.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p4_0",
-    "text": "[Image on Page 5]: image_p5_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p5_0",
-    "text": "[Image on Page 6]: image_p6_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p6_0",
-    "text": "[Image on Page 7]: image_p7_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p7_0",
-    "text": "[Image on Page 8]: image_p8_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p8_0",
-    "text": "[Image on Page 9]: image_p9_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p8_1",
-    "text": "[Image on Page 9]: image_p9_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p9_0",
-    "text": "[Image on Page 10]: image_p10_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p9_1",
-    "text": "[Image on Page 10]: image_p10_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p10_0",
-    "text": "[Image on Page 11]: image_p11_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p10_1",
-    "text": "[Image on Page 11]: image_p11_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p11_0",
-    "text": "[Image on Page 12]: image_p12_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p11_1",
-    "text": "[Image on Page 12]: image_p12_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p12_0",
-    "text": "[Image on Page 13]: image_p13_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p12_1",
-    "text": "[Image on Page 13]: image_p13_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p13_0",
-    "text": "[Image on Page 14]: image_p14_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p13_1",
-    "text": "[Image on Page 14]: image_p14_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p14_0",
-    "text": "[Image on Page 15]: image_p15_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p14_1",
-    "text": "[Image on Page 15]: image_p15_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p15_0",
-    "text": "[Image on Page 16]: image_p16_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p15_1",
-    "text": "[Image on Page 16]: image_p16_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p16_0",
-    "text": "[Image on Page 17]: image_p17_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p16_1",
-    "text": "[Image on Page 17]: image_p17_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p17_0",
-    "text": "[Image on Page 18]: image_p18_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p18_0",
-    "text": "[Image on Page 19]: image_p19_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p18_1",
-    "text": "[Image on Page 19]: image_p19_1.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p19_0",
-    "text": "[Image on Page 20]: image_p20_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p19_1",
-    "text": "[Image on Page 20]: image_p20_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p20_0",
-    "text": "[Image on Page 21]: image_p21_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p20_1",
-    "text": "[Image on Page 21]: image_p21_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p21_0",
-    "text": "[Image on Page 22]: image_p22_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p21_1",
-    "text": "[Image on Page 22]: image_p22_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p22_0",
-    "text": "[Image on Page 23]: image_p23_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p22_1",
-    "text": "[Image on Page 23]: image_p23_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p23_0",
-    "text": "[Image on Page 24]: image_p24_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p23_1",
-    "text": "[Image on Page 24]: image_p24_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p23_2",
-    "text": "[Image on Page 24]: image_p24_2.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p24_0",
-    "text": "[Image on Page 25]: image_p25_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p25_0",
-    "text": "[Image on Page 26]: image_p26_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p25_1",
-    "text": "[Image on Page 26]: image_p26_1.jpeg\n[OCR Text]\nEe\n"
-  },
-  {
-    "chunk_index": "image_p26_0",
-    "text": "[Image on Page 27]: image_p27_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p26_1",
-    "text": "[Image on Page 27]: image_p27_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p27_0",
-    "text": "[Image on Page 28]: image_p28_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p27_1",
-    "text": "[Image on Page 28]: image_p28_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p28_0",
-    "text": "[Image on Page 29]: image_p29_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p28_1",
-    "text": "[Image on Page 29]: image_p29_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p29_0",
-    "text": "[Image on Page 30]: image_p30_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p29_1",
-    "text": "[Image on Page 30]: image_p30_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p30_0",
-    "text": "[Image on Page 31]: image_p31_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p31_0",
-    "text": "[Image on Page 32]: image_p32_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p31_1",
-    "text": "[Image on Page 32]: image_p32_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p32_0",
-    "text": "[Image on Page 33]: image_p33_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p33_0",
-    "text": "[Image on Page 34]: image_p34_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p34_0",
-    "text": "[Image on Page 35]: image_p35_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p35_0",
-    "text": "[Image on Page 36]: image_p36_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p35_1",
-    "text": "[Image on Page 36]: image_p36_1.jpeg\n[OCR Text]\nms,\n\npa\n\nB\n"
-  },
-  {
-    "chunk_index": "image_p36_0",
-    "text": "[Image on Page 37]: image_p37_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p37_0",
-    "text": "[Image on Page 38]: image_p38_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p37_1",
-    "text": "[Image on Page 38]: image_p38_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p38_0",
-    "text": "[Image on Page 39]: image_p39_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p39_0",
-    "text": "[Image on Page 40]: image_p40_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p40_0",
-    "text": "[Image on Page 41]: image_p41_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p41_0",
-    "text": "[Image on Page 42]: image_p42_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p41_1",
-    "text": "[Image on Page 42]: image_p42_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p42_0",
-    "text": "[Image on Page 43]: image_p43_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p42_1",
-    "text": "[Image on Page 43]: image_p43_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p43_0",
-    "text": "[Image on Page 44]: image_p44_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p44_0",
-    "text": "[Image on Page 45]: image_p45_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p44_1",
-    "text": "[Image on Page 45]: image_p45_1.jpeg\n[OCR Text]\n~*\u00ae\n"
-  },
-  {
-    "chunk_index": "image_p45_0",
-    "text": "[Image on Page 46]: image_p46_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p46_0",
-    "text": "[Image on Page 47]: image_p47_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p46_1",
-    "text": "[Image on Page 47]: image_p47_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p47_0",
-    "text": "[Image on Page 48]: image_p48_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p47_1",
-    "text": "[Image on Page 48]: image_p48_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p48_0",
-    "text": "[Image on Page 49]: image_p49_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p48_1",
-    "text": "[Image on Page 49]: image_p49_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p49_0",
-    "text": "[Image on Page 50]: image_p50_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p49_1",
-    "text": "[Image on Page 50]: image_p50_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p50_0",
-    "text": "[Image on Page 51]: image_p51_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p50_1",
-    "text": "[Image on Page 51]: image_p51_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p51_0",
-    "text": "[Image on Page 52]: image_p52_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p52_0",
-    "text": "[Image on Page 53]: image_p53_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p53_0",
-    "text": "[Image on Page 54]: image_p54_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p54_0",
-    "text": "[Image on Page 55]: image_p55_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p55_0",
-    "text": "[Image on Page 56]: image_p56_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p55_1",
-    "text": "[Image on Page 56]: image_p56_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p56_0",
-    "text": "[Image on Page 57]: image_p57_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p56_1",
-    "text": "[Image on Page 57]: image_p57_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p56_2",
-    "text": "[Image on Page 57]: image_p57_2.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p57_0",
-    "text": "[Image on Page 58]: image_p58_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p57_1",
-    "text": "[Image on Page 58]: image_p58_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p58_0",
-    "text": "[Image on Page 59]: image_p59_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p58_1",
-    "text": "[Image on Page 59]: image_p59_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p59_0",
-    "text": "[Image on Page 60]: image_p60_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p60_0",
-    "text": "[Image on Page 61]: image_p61_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p61_0",
-    "text": "[Image on Page 62]: image_p62_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p61_1",
-    "text": "[Image on Page 62]: image_p62_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p62_0",
-    "text": "[Image on Page 63]: image_p63_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p63_0",
-    "text": "[Image on Page 64]: image_p64_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p64_0",
-    "text": "[Image on Page 65]: image_p65_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p65_0",
-    "text": "[Image on Page 66]: image_p66_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p66_0",
-    "text": "[Image on Page 67]: image_p67_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p66_1",
-    "text": "[Image on Page 67]: image_p67_1.jpeg\n[OCR Text]\nBm gp gO\n"
-  },
-  {
-    "chunk_index": "image_p67_0",
-    "text": "[Image on Page 68]: image_p68_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p67_1",
-    "text": "[Image on Page 68]: image_p68_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p68_0",
-    "text": "[Image on Page 69]: image_p69_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p69_0",
-    "text": "[Image on Page 70]: image_p70_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p70_0",
-    "text": "[Image on Page 71]: image_p71_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p71_0",
-    "text": "[Image on Page 72]: image_p72_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p72_0",
-    "text": "[Image on Page 73]: image_p73_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p73_0",
-    "text": "[Image on Page 74]: image_p74_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p74_0",
-    "text": "[Image on Page 75]: image_p75_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p75_0",
-    "text": "[Image on Page 76]: image_p76_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p76_0",
-    "text": "[Image on Page 77]: image_p77_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p77_0",
-    "text": "[Image on Page 78]: image_p78_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p77_1",
-    "text": "[Image on Page 78]: image_p78_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p78_0",
-    "text": "[Image on Page 79]: image_p79_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p80_0",
-    "text": "[Image on Page 81]: image_p81_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p81_0",
-    "text": "[Image on Page 82]: image_p82_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p82_0",
-    "text": "[Image on Page 83]: image_p83_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p82_1",
-    "text": "[Image on Page 83]: image_p83_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p83_0",
-    "text": "[Image on Page 84]: image_p84_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p84_0",
-    "text": "[Image on Page 85]: image_p85_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p84_1",
-    "text": "[Image on Page 85]: image_p85_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p85_0",
-    "text": "[Image on Page 86]: image_p86_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p85_1",
-    "text": "[Image on Page 86]: image_p86_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p86_0",
-    "text": "[Image on Page 87]: image_p87_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p86_1",
-    "text": "[Image on Page 87]: image_p87_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p87_0",
-    "text": "[Image on Page 88]: image_p88_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p87_1",
-    "text": "[Image on Page 88]: image_p88_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p88_0",
-    "text": "[Image on Page 89]: image_p89_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p88_1",
-    "text": "[Image on Page 89]: image_p89_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p89_0",
-    "text": "[Image on Page 90]: image_p90_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p90_0",
-    "text": "[Image on Page 91]: image_p91_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p91_0",
-    "text": "[Image on Page 92]: image_p92_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p92_0",
-    "text": "[Image on Page 93]: image_p93_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p92_1",
-    "text": "[Image on Page 93]: image_p93_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p93_0",
-    "text": "[Image on Page 94]: image_p94_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p94_0",
-    "text": "[Image on Page 95]: image_p95_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p95_0",
-    "text": "[Image on Page 96]: image_p96_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p96_0",
-    "text": "[Image on Page 97]: image_p97_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p96_1",
-    "text": "[Image on Page 97]: image_p97_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p97_0",
-    "text": "[Image on Page 98]: image_p98_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p97_1",
-    "text": "[Image on Page 98]: image_p98_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p99_0",
-    "text": "[Image on Page 100]: image_p100_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p100_0",
-    "text": "[Image on Page 101]: image_p101_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p100_1",
-    "text": "[Image on Page 101]: image_p101_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p100_2",
-    "text": "[Image on Page 101]: image_p101_2.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p101_0",
-    "text": "[Image on Page 102]: image_p102_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p101_1",
-    "text": "[Image on Page 102]: image_p102_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p102_0",
-    "text": "[Image on Page 103]: image_p103_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p103_0",
-    "text": "[Image on Page 104]: image_p104_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p103_1",
-    "text": "[Image on Page 104]: image_p104_1.jpeg\n[OCR Text]\nb.\n"
-  },
-  {
-    "chunk_index": "image_p103_2",
-    "text": "[Image on Page 104]: image_p104_2.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p104_0",
-    "text": "[Image on Page 105]: image_p105_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p104_1",
-    "text": "[Image on Page 105]: image_p105_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p105_0",
-    "text": "[Image on Page 106]: image_p106_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p105_1",
-    "text": "[Image on Page 106]: image_p106_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p106_0",
-    "text": "[Image on Page 107]: image_p107_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p106_1",
-    "text": "[Image on Page 107]: image_p107_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p106_2",
-    "text": "[Image on Page 107]: image_p107_2.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p106_3",
-    "text": "[Image on Page 107]: image_p107_3.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p107_0",
-    "text": "[Image on Page 108]: image_p108_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p109_0",
-    "text": "[Image on Page 110]: image_p110_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p109_1",
-    "text": "[Image on Page 110]: image_p110_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p110_0",
-    "text": "[Image on Page 111]: image_p111_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p111_0",
-    "text": "[Image on Page 112]: image_p112_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p112_0",
-    "text": "[Image on Page 113]: image_p113_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p112_1",
-    "text": "[Image on Page 113]: image_p113_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p113_0",
-    "text": "[Image on Page 114]: image_p114_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p113_1",
-    "text": "[Image on Page 114]: image_p114_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p113_2",
-    "text": "[Image on Page 114]: image_p114_2.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p114_0",
-    "text": "[Image on Page 115]: image_p115_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p114_1",
-    "text": "[Image on Page 115]: image_p115_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p115_0",
-    "text": "[Image on Page 116]: image_p116_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p115_1",
-    "text": "[Image on Page 116]: image_p116_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p116_0",
-    "text": "[Image on Page 117]: image_p117_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p117_0",
-    "text": "[Image on Page 118]: image_p118_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p117_1",
-    "text": "[Image on Page 118]: image_p118_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p118_0",
-    "text": "[Image on Page 119]: image_p119_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p119_0",
-    "text": "[Image on Page 120]: image_p120_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p119_1",
-    "text": "[Image on Page 120]: image_p120_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p120_0",
-    "text": "[Image on Page 121]: image_p121_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p120_1",
-    "text": "[Image on Page 121]: image_p121_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p121_0",
-    "text": "[Image on Page 122]: image_p122_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p122_0",
-    "text": "[Image on Page 123]: image_p123_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p123_0",
-    "text": "[Image on Page 124]: image_p124_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p123_1",
-    "text": "[Image on Page 124]: image_p124_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p124_0",
-    "text": "[Image on Page 125]: image_p125_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p124_1",
-    "text": "[Image on Page 125]: image_p125_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p125_0",
-    "text": "[Image on Page 126]: image_p126_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p125_1",
-    "text": "[Image on Page 126]: image_p126_1.jpeg\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p126_0",
-    "text": "[Image on Page 127]: image_p127_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p128_0",
-    "text": "[Image on Page 129]: image_p129_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p129_0",
-    "text": "[Image on Page 130]: image_p130_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p130_0",
-    "text": "[Image on Page 131]: image_p131_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p131_0",
-    "text": "[Image on Page 132]: image_p132_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p132_0",
-    "text": "[Image on Page 133]: image_p133_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p133_0",
-    "text": "[Image on Page 134]: image_p134_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p134_0",
-    "text": "[Image on Page 135]: image_p135_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p135_0",
-    "text": "[Image on Page 136]: image_p136_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p135_1",
-    "text": "[Image on Page 136]: image_p136_1.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p136_0",
-    "text": "[Image on Page 137]: image_p137_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p137_0",
-    "text": "[Image on Page 138]: image_p138_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p138_0",
-    "text": "[Image on Page 139]: image_p139_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p139_0",
-    "text": "[Image on Page 140]: image_p140_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p140_0",
-    "text": "[Image on Page 141]: image_p141_0.png\n[OCR Text]\n"
-  },
-  {
-    "chunk_index": "image_p142_0",
-    "text": "[Image on Page 143]: image_p143_0.jpeg\n[OCR Text]\n"
+    "chunk_index": "p58_c63",
+    "page": 58,
+    "text": "[Page 58]\n58 COLOR IMAGE COMPRESSION Compression reduces the amount of data required to represent a digital image. The data that are the object of any compression are the components of each color pixel. Compressed with JPEG 2000. The compressed image contains only 1 data bit for every 230 bits of data in the original image."
   }
 ]

@@ -1,0 +1,27 @@
+# Core LangChain packages
+langchain==0.3.7
+langchain-core==0.3.63
+langchain-community==0.3.5
+langchain-text-splitters==0.3.8
+langchain-chroma==0.1.4
+
+# VectorDB
+chromadb==0.5.23
+
+# Embeddings (HuggingFace)
+sentence-transformers==2.7.0
+transformers==4.46.3
+tokenizers==0.20.3
+
+# PDF processing
+pypdf==4.0.1
+
+# Local LLM (Optional: Only if using Ollama)
+langchain-ollama==0.1.1
+
+# Utilities
+numpy==1.26.4
+tqdm==4.66.4
+python-dotenv==1.0.1
+
+warnings-filter==0.1

@@ -1,0 +1,94 @@
+{
+  "overall_accuracy": 0.8333,
+  "in_scope_accuracy": 0.75,
+  "out_scope_refusal_rate": 1.0,
+  "avg_keyword_coverage": 0.3975,
+  "total_questions": 12,
+  "passed": 10,
+  "per_question": [
+    {
+      "question": "Who are the parties in this agreement?",
+      "answer": "\"Not found in the provided documents.\"",
+      "should_be_found": true,
+      "passed": false,
+      "kw_score": 0.0
+    },
+    {
+      "question": "What are the termination conditions?",
+      "answer": "Pursuant to Section 4.1 or 4.2, termination conditions include:\n\n- Expiration of the Agreement\n- Termination of the Agreement by the Company or the Distributor\n\nIn the event of termination, the Company may repurchase Products from the Distributor.",
+      "should_be_found": true,
+      "passed": true,
+      "kw_score": 0.33
+    },
+    {
+      "question": "What is the governing law?",
+      "answer": "It will be governed by the law of the People's Republic of China, otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods.",
+      "should_be_found": true,
+      "passed": true,
+      "kw_score": 0.33
+    },
+    {
+      "question": "What are the confidentiality obligations?",
+      "answer": "The recipient (party) shall ensure that those people and entities (people and entities disclosed confidential information to) use such Confidential Information only to exercise rights and fulfill obligations under this Agreement, and keep such Confidential Information confidential.",
+      "should_be_found": true,
+      "passed": true,
+      "kw_score": 0.8
+    },
+    {
+      "question": "What are the payment terms?",
+      "answer": "Payment shall be made to the Company of all sums due and owing to it.",
+      "should_be_found": true,
+      "passed": true,
+      "kw_score": 0.43
+    },
+    {
+      "question": "What happens in case of breach of contract?",
+      "answer": "In case of breach of contract, the agreement may be terminated with immediate effect if:\n\n(a) the breach is incapable of remedy; or\n\n(b) the breach is capable of remedy and the party fails to remedy that breach within thirty (30) days after receiving written notice of such breach.",
+      "should_be_found": true,
+      "passed": true,
+      "kw_score": 0.5
+    },
+    {
+      "question": "What are the intellectual property rights?",
+      "answer": "All copyright, moral rights, patent rights, trade marks, design right, rights in or relating to databases, rights in  or relating to confidential information, rights in relation to domain names, and any other intellectual property rights (registered or unregistered) throughout the world.",
+      "should_be_found": true,
+      "passed": true,
+      "kw_score": 0.5
+    },
+    {
+      "question": "What is the duration or term of this agreement?",
+      "answer": "ten (10) years (the \"Term\") which shall commence on the date upon which the Company delivers to Distributor the last Sample.",
+      "should_be_found": true,
+      "passed": false,
+      "kw_score": 0.29
+    },
+    {
+      "question": "What is the capital of France?",
+      "answer": "Not found in the provided documents.",
+      "should_be_found": false,
+      "passed": true,
+      "kw_score": 1.0
+    },
+    {
+      "question": "Explain quantum physics",
+      "answer": "\"Not found in the provided documents.\"",
+      "should_be_found": false,
+      "passed": true,
+      "kw_score": 1.0
+    },
+    {
+      "question": "What is the population of India?",
+      "answer": "\"Not found in the provided documents.\"",
+      "should_be_found": false,
+      "passed": true,
+      "kw_score": 1.0
+    },
+    {
+      "question": "Who won the FIFA World Cup 2022?",
+      "answer": "Not found in the provided documents.",
+      "should_be_found": false,
+      "passed": true,
+      "kw_score": 1.0
+    }
+  ]
+}
